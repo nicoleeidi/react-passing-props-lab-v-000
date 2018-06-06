@@ -41,7 +41,7 @@ class App extends Component {
         fruit={this.state.fruit}
         filters={this.state.filters}
         currentFilter={this.state.currentFilter}
-        onUpdateFilter={this.updateFilter} 
+        onUpdateFilter={this.updateFilter}
       />
     );
   }
